@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar with contacts -->
+        <div class="sidebar">
+            <div class="header">
+                <div class="user-img">
+                    <img src="https://via.placeholder.com/40" alt="Profile">
+                </div>
+                <div class="header-icons">
+                    <i class="fas fa-circle-notch"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search or start new chat">
+                </div>
+            </div>
+            <div class="contacts-list">
+                <!-- Sample contacts -->
+                <div class="contact active">
+                    <div class="contact-img">
+                        <img src="https://via.placeholder.com/40" alt="Contact">
+                    </div>
+                    <div class="contact-info">
+                        <h4>John Doe</h4>
+                        <p>Hey, how are you?</p>
+                    </div>
+                    <div class="contact-time">
+                        <span>10:30 AM</span>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-img">
+                        <img src="https://via.placeholder.com/40" alt="Contact">
+                    </div>
+                    <div class="contact-info">
+                        <h4>Jane Smith</h4>
+                        <p>See you tomorrow!</p>
+                    </div>
+                    <div class="contact-time">
+                        <span>Yesterday</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main chat area -->
+        <div class="main">
+            <div class="chat-header">
+                <div class="chat-info">
+                    <div class="contact-img">
+                        <img src="https://via.placeholder.com/40" alt="Contact">
+                    </div>
+                    <div class="contact-info">
+                        <h4>John Doe</h4>
+                        <p>online</p>
+                    </div>
+                </div>
+                <div class="chat-icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-paperclip"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="chat-body">
+                <!-- Sample messages -->
+                <div class="message received">
+                    <p>Hey, how are you?</p>
+                    <span class="time">10:30 AM</span>
+                </div>
+                <div class="message sent">
+                    <p>I'm good, thanks! How about you?</p>
+                    <span class="time">10:31 AM</span>
+                </div>
+            </div>
+            <div class="chat-input">
+                <i class="far fa-grin"></i>
+                <input type="text" placeholder="Type a message">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
